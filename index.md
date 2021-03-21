@@ -1,6 +1,9 @@
 # GitHub Pages Tutorial
 
-**Using Markdown Tables with Text:**
+## [Using Markdown Tables with Text](#Using-Markdown-Tables-with-Links)
+## [Using Markdown Tables with Links](##-Using-Markdown-Tables-with-Links)
+
+## Using Markdown Tables with Text
 
 In the first line, we write the headers separated by |
 In the second line we write --- for each header, separated by |
@@ -17,14 +20,16 @@ Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 ```
 
-Text1 | Text2 | Text3
+Column 1 | Column 2 | Column 3
 ---|---|---
-Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
+Lorem ipsum dolor sit amet | consectetuer adipiscing elit  | Maecenas porttitor congue massa
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 
+*[Index](#GitHub-Pages-Tutorial)*
 
-**Using Markdown Tables with Links:**
+
+## Using Markdown Tables with Links
 
 Links can be written either as https://www.google.com or as
 [Google Search](https://www.google.com)  In the first case,
@@ -42,3 +47,5 @@ Link1 | Link2 | Link3
 ---|---|---
 https://www.google.com | www.google.com | www.google.com
 [Google Search](https://www.google.com) | [Google Search](www.google.com) | [Google Search](www.google.com)
+
+*[Index](#GitHub-Pages-Tutorial)*
