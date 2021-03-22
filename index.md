@@ -424,14 +424,14 @@ one blank line below the table:
 
 
 ```
-Column 1 | Column 1 | Column 1
+Column 1 | Column 2 | Column 3
 ---|---|---
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 ```
 
-Column 1 | Column 1 | Column 1
+Column 1 | Column 2 | Column 3
 ---|---|---
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
@@ -446,14 +446,14 @@ To create a table with links inside, we simply
 place the links inside the table like this:
 
 ```
-Column 1 | Column 2 | Column 3
----|---|---
+Column 1 | Column 2
+---|---
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 ```
 
-Column 1 | Column 2 | Column 3
----|---|---
+Column 1 | Column 2
+---|---
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 
@@ -463,16 +463,16 @@ Column 1 | Column 2 | Column 3
 This approach can be used when we would like to place two images next to each other
 
 ```
-Column 1 | Column 2 | Column 3
----|---|---
-![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
-![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+Column 1 | Column 2
+---|---
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 ```
 
-Column 1 | Column 2 | Column 3
----|---|---
-![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
-![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+Column 1 | Column 2
+---|---
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 
 
 ## Creating a table with clickable images
@@ -480,16 +480,16 @@ Column 1 | Column 2 | Column 3
 This approach can be used when we would like to link, for example, to project pages
 
 ```
-Column 1 | Column 2 | Column 3
----|---|---
+Column 1 | Column 2
+---|---
 [![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
 [![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
 ```
 
-Column 1 | Column 2 | Column 3
----|---|---
-[![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
-[![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
+Column 1 | Column 2
+---|---
+[![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
+[![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
 
 
 ## A few notes
