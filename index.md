@@ -67,10 +67,12 @@ The `README.md` or the `index.md` file in your repository, can be customized usi
 ```
 **this thext is bold**
 _this text is italized_
+*this text is also italized*
 
 ```
 **this thext is bold**
 _this text is italized_
+*this text is also italized*
 
 ```
 **combination of _italized text_ inside bold text**
@@ -103,12 +105,13 @@ Second line
 First line
 Second line
 
-Note: One enter at the end of a line, does not change the line. Thus, if you write text and siply press enter at the end of each line, that text will appear as a single line. To place the text on a new line, leave two spaces at the end of a line and then press enter. To start a new paragraph, just press enter twice.
+**Note:** One enter at the end of a line, does not change the line. Thus, if you write text and siply press enter at the end of each line, that text will appear as a single line. To place the text on a new line, leave two spaces at the end of a line and then press enter. To start a new paragraph, just press enter twice.
 
 ---
 
 ## Tables:
 
+
 ```
 header one | header two | header three
 -----------|------------| ------------
@@ -117,11 +120,13 @@ second item in # 1 | second item in # 2 | second item in # 3
 third item in # 1 | third item in # 2 | third itemm in # 3
 ```
 
+
 header one | header two | header three
 -----------|------------| ------------
 first item in #1 | first item in #2 | first item in # 3
 second item in # 1 | second item in # 2 | second item in # 3
 third item in # 1 | third item in # 2 | third itemm in # 3
+
 
 ```
 items align left | items align center | items align right
@@ -130,6 +135,7 @@ item 1a | item 2a | item 3a
 item 1b | item 2b | item 3b
 item 1c | item 2c | item 3c
 ```
+
 
 items align left | items align center | items align right
 :---   |   :---:   |   ---:
@@ -243,10 +249,6 @@ item 1c | item 2c | item 3c
 
 ## Links:
 
-```
-https://www.google.com
-```
-https://www.google.com
 
 ```
 [GitHub](http://github.com)
@@ -330,6 +332,26 @@ for (i=0; i<10; i++) {
    font: Verdana, Arial, sans-serif;
 }
 ```
+
+### Python:
+````
+```python
+# transpose a 2D array
+array = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+transposed = zip(*array)
+print(transposed) # [('a', 'c', 'e'), ('b', 'd', 'f')]
+
+```
+````
+
+```python
+# transpose a 2D array
+array = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+transposed = zip(*array)
+print(transposed) # [('a', 'c', 'e'), ('b', 'd', 'f')]
+
+```
+
 ---
 
 ## Quote:
@@ -346,10 +368,10 @@ for (i=0; i<10; i++) {
 ## Images:
 
 ```
-![Merfys, a brown and white dog laying on the floor and looking at the camera](imgs/merfys.jpg)
+![Merfys, a brown and white dog looking at the camera](imgs/merfys.jpg)
 ```
 
-![Merfys, a brown and white dog laying on the floor and looking at the camera](imgs/merfys.jpg)
+![Merfys, a brown and white dog looking at the camera](imgs/merfys.jpg)
 
 ---
 
@@ -360,7 +382,7 @@ First, write the code for the link and the code for the image:
 ```
 
 Link:
-[Merfy's GitHub Page](https://antzm.github.io/)
+[Google search](https://www.google.com)
 
 Image:
 ![Merfy's the dog looking at the camera](imgs/merfys.jpg)
@@ -372,7 +394,7 @@ Now, use the code for the link and replace whatever is inside the `[...]` with t
 ```
 
 Clickable Image:
-[![Merfy's the dog looking at the camera](imgs/merfys.jpg)](https://antzm.github.io/)
+[![Merfy's the dog looking at the camera](imgs/merfys.jpg)](https://www.google.com)
 
 
 ```
@@ -430,6 +452,12 @@ Column 1 | Column 1 | Column 1
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 ```
 
+Column 1 | Column 1 | Column 1
+---|---|---
+[Google Search](https://www.google.com) | [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
+[Google Search](https://www.google.com) | [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
+
+
 ## Creating a table with images
 
 This approach can be used when we would like to place two images next to each other
@@ -437,14 +465,14 @@ This approach can be used when we would like to place two images next to each ot
 ```
 Column 1 | Column 1 | Column 1
 ---|---|---
-![Our story](imgs/story.png) | ![Our story](imgs/story.png) | ![Our story](imgs/story.png)
-![Our story](imgs/story.png) | ![Our story](imgs/story.png) | ![Our story](imgs/story.png)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 ```
 
 Column 1 | Column 1 | Column 1
 ---|---|---
-![Our story](imgs/story.png) | ![Our story](imgs/story.png) | ![Our story](imgs/story.png)
-![Our story](imgs/story.png) | ![Our story](imgs/story.png) | ![Our story](imgs/story.png)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 
 
 ## Creating a table with clickable images
@@ -471,5 +499,4 @@ If your images don't appear on your web page, right click on the original images
 Some special characters (e.g. a "\*") may not appear correctly in your web page. In such situations, you should place a `\` character before your symbol, like `\*`
 
 
-> Those who tell the stories rule society - Plato
-
+![Those who tell the stories rule society, quote by Plato](imgs/plato.jpg)
