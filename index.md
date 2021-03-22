@@ -365,7 +365,12 @@ print(transposed) # [('a', 'c', 'e'), ('b', 'd', 'f')]
 
 ---
 
-## Images:
+## Images
+
+Inportant: In the path, only include the folder with your images.
+
+Don't include the name of your repository in the path. This will be added automatically when your web page will be rendered from your .md file.
+
 
 ```
 ![Merfys, a brown and white dog looking at the camera](imgs/merfys.jpg)
