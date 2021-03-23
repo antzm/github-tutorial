@@ -65,45 +65,45 @@ The `README.md` or the `index.md` file in your repository, can be customized usi
 ## Font styles
 
 ```
-**this thext is bold**
-_this text is italized_
-*this text is also italized*
+**this thext is bold**  
+_this text is italized_  
+*this text is also italized*  
 
 ```
-**this thext is bold**
-_this text is italized_
-*this text is also italized*
+**this thext is bold**  
+_this text is italized_  
+*this text is also italized*  
 
 ```
-**combination of _italized text_ inside bold text**
-_combination of **bold text** inside italized text_
+**combination of _italized text_ inside bold text**  
+_combination of **bold text** inside italized text_  
 ```
-**combination of _italized text_ inside bold text**
-_combination of **bold text** inside italized text_
+**combination of _italized text_ inside bold text**  
+_combination of **bold text** inside italized text_  
 
 ---
 
 ## Paragraphs
 
-To start a new paragraph, leave an empty line between the previous and the next paragraph.
+To start a new paragraph, leave an empty line between the previous and the next paragraph (i.e. press enter twice)
 
 ```
-First paragraph
+First paragraph  
 
-Seconda paragraph
+Seconda paragraph  
 ```
-First paragraph
+First paragraph  
 
-Second paragraph
+Second paragraph  
 
 
-To start a new line, leave two spaces at the end of a line.
+To start a new line, leave two spaces at the end of a line.  
 ```
-First line  <- two spaces at the end of the line
-Second line
+First line  <- two spaces at the end of the line  
+Second line  
 ```
-First line
-Second line
+First line  
+Second line  
 
 **Note:** One enter at the end of a line, does not change the line. Thus, if you write text and siply press enter at the end of each line, that text will appear as a single line. To place the text on a new line, leave two spaces at the end of a line and then press enter. To start a new paragraph, just press enter twice.
 
@@ -487,8 +487,8 @@ This approach can be used when we would like to link, for example, to project pa
 ```
 Column 1 | Column 2
 ---|---
-[![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
-[![Our story](imgs/story.png)](https://www.google.com) | [![Our story](imgs/story.png)](https://www.google.com)
+[![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
+[![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
 ```
 
 Column 1 | Column 2
