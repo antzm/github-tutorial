@@ -143,7 +143,9 @@ item 1a | item 2a | item 3a
 item 1b | item 2b | item 3b
 item 1c | item 2c | item 3c
 
+
 ---
+
 
 ## Unordered Lists:
 
@@ -157,6 +159,7 @@ item 1c | item 2c | item 3c
 * second item
 * third item
 
+
 ```
 * first item
 * second item
@@ -169,6 +172,7 @@ item 1c | item 2c | item 3c
    * third item c
 ```
 
+
 * first item
 * second item
    * second item a
@@ -178,8 +182,10 @@ item 1c | item 2c | item 3c
    * third item a
    * third item b
    * third item c
+
 
 ---
+
 
 ## Ordered Lists:
 
@@ -263,6 +269,7 @@ item 1c | item 2c | item 3c
 
 this is an `inline code` example
 
+
 ````
 ```
 This is a longer
@@ -271,11 +278,13 @@ code example
 ```
 ````
 
+
 ```
 This is a longer
 
 code example
 ```
+
 ---
 
 ## Code highlighting:
@@ -369,20 +378,23 @@ print(transposed) # [('a', 'c', 'e'), ('b', 'd', 'f')]
 
 Inportant: In the path, only include the folder with your images.
 
-Don't include the name of your repository in the path. This will be added automatically when your web page will be rendered from your .md file.
+i.e., Don't include the name of your repository in the path. If needed, this will be added automatically when your web page will be rendered from your .md file.
 
 
 ```
 ![Merfys, a brown and white dog looking at the camera](imgs/merfys.jpg)
 ```
 
+
 ![Merfys, a brown and white dog looking at the camera](imgs/merfys.jpg)
+
 
 ---
 
 ## Clickable Images
 
 First, write the code for the link and the code for the image:
+
 
 ```
 
@@ -396,6 +408,7 @@ Image:
 
 Now, use the code for the link and replace whatever is inside the `[...]` with the full code of the image:
 
+
 ```
 
 Clickable Image:
@@ -404,11 +417,14 @@ Clickable Image:
 
 ```
 
+
 [![Merfy's the dog looking at the camera](imgs/merfys.jpg)](https://www.google.com)
+
 
 ---
 
 ## Insert a line
+
 
 ```
 ---
@@ -436,6 +452,7 @@ Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
 ```
 
+
 Column 1 | Column 2 | Column 3
 ---|---|---
 Lorem Ipsum | Lorem Ipsum  | Lorem Ipsum
@@ -450,12 +467,14 @@ Links can be written as
 To create a table with links inside, we simply
 place the links inside the table like this:
 
+
 ```
 Column 1 | Column 2
 ---|---
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 [Google Search](https://www.google.com) | [Google Search](https://www.google.com)
 ```
+
 
 Column 1 | Column 2
 ---|---
@@ -467,6 +486,7 @@ Column 1 | Column 2
 
 This approach can be used when we would like to place two images next to each other
 
+
 ```
 Column 1 | Column 2
 ---|---
@@ -474,22 +494,26 @@ Column 1 | Column 2
 ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 ```
 
+
 Column 1 | Column 2
 ---|---
 ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
 ![Our story](imgs/story.jpg) | ![Our story](imgs/story.jpg)
+
 
 
 ## Creating a table with clickable images
 
 This approach can be used when we would like to link, for example, to project pages
 
+
 ```
 Column 1 | Column 2
 ---|---
 [![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
 [![Our story](imgs/story.jpg)](https://www.google.com) | [![Our story](imgs/story.jpg)](https://www.google.com)
 ```
+
 
 Column 1 | Column 2
 ---|---
